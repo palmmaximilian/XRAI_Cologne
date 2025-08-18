@@ -34,7 +34,7 @@ public class GameManager : MonoBehaviour
 
     }
     
-    void NextChallenge()
+    public void NextChallenge()
     {
             
             challengeIndex++;

@@ -43,6 +43,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5402560466178515970}
   - component: {fileID: 2796519823121526419}
+  - component: {fileID: 773264792198613920}
   m_Layer: 0
   m_Name: Tomato
   m_TagString: Untagged
@@ -85,6 +86,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AnimatedGameObject: {fileID: 1363325449613017488}
+--- !u!114 &773264792198613920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1663555094490583388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74e3d048252884900a35927af3050826, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnComplition:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: NextChallenge
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1756672580569243255
 GameObject:
   m_ObjectHideFlags: 0
