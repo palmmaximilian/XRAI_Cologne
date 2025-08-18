@@ -3,7 +3,32 @@ guid: e994b20cd9f23de47a11b8e4afd20a0c
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 02___Default.001
+    second: {fileID: 2100000, guid: 4ae1f3cd71ca1a742977fd6712cc572b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 03___Default.001
+    second: {fileID: 2100000, guid: 9ac827e6ea4bd3744bd1b213d04dd8f5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 07___Default.001
+    second: {fileID: 2100000, guid: 4e924cddb6d4565488f57a71f63d8c9c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 08___Default.001
+    second: {fileID: 2100000, guid: c79c4784b20d6a848b84dd8d2d307c9b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _crayfishdiffuse.001
+    second: {fileID: 2100000, guid: e47d15ba92ce88644b6d0220006dc6c4, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -88,7 +113,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 0.0001
+    globalScale: 0.01
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
