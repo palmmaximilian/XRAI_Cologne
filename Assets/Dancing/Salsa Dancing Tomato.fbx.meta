@@ -3,7 +3,12 @@ guid: 4683c6a5aed59ad4f87715d658d2c467
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _082_GoodTomato
+    second: {fileID: 2100000, guid: a98415f082584ca4994690a48d0b8e9c, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
