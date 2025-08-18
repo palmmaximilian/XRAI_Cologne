@@ -26,7 +26,7 @@ public class GameManager : MonoBehaviour
         {
             if(OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger, OVRInput.Controller.RTouch))
             {
-                challenge[challengeIndex].SetActive(false);
+                
                 NextChallenge();
             }
             
@@ -36,7 +36,7 @@ public class GameManager : MonoBehaviour
     
     public void NextChallenge()
     {
-            
+            Destroy(challenge[challengeIndex]);
             challengeIndex++;
             spawnFinder.SpawnObject = challenge[challengeIndex];
             spawnFinder.StartSpawn();
