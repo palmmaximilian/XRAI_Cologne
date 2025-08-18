@@ -1089,7 +1089,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 113087239}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.6434, y: 0.738, z: 0.1921}
   m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_ConstrainProportionsScale: 1
@@ -11690,7 +11690,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _occlusionShadersMode: 2
-  _removeHands: 0
+  _removeHands: 1
   CustomTrackingSpace: {fileID: 0}
   <MaskMeshFilters>k__BackingField: []
   _cameraRig: {fileID: 237233020}
@@ -12301,7 +12301,7 @@ SceneRoots:
   - {fileID: 905393308}
   - {fileID: 1365307548}
   - {fileID: 1653452408}
-  - {fileID: 113087244}
   - {fileID: 2008225011}
   - {fileID: 2001764336}
   - {fileID: 2133844851}
+  - {fileID: 113087244}
