@@ -260,7 +260,7 @@ PrefabInstance:
     - target: {fileID: 6783229898212249279, guid: 19d108f124a8c4a7b9a7cd271799296c, type: 3}
       propertyPath: m_Resource
       value: 
-      objectReference: {fileID: 8300000, guid: d83bb2faf4c05485fa8b4d2d540147d6, type: 3}
+      objectReference: {fileID: 8300000, guid: 4dfc672fa495242cca68d097ae3b1974, type: 3}
     - target: {fileID: 7250268837119923014, guid: 19d108f124a8c4a7b9a7cd271799296c, type: 3}
       propertyPath: m_Name
       value: Spatial Audio
