@@ -8257,7 +8257,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SpawnOnStart: 1
-  SpawnObject: {fileID: 7158309082059246364, guid: cc7e2ba39aba841908fb8d4809b86a8b, type: 3}
+  SpawnObject: {fileID: 0}
   SpawnAmount: 1
   MaxIterations: 1000
   SpawnLocations: 3
@@ -8280,6 +8280,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7c8e8ed9919c4985918c0b882d5b20d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  challenge:
+  - {fileID: 7158309082059246364, guid: cc7e2ba39aba841908fb8d4809b86a8b, type: 3}
+  - {fileID: 205110704592801369, guid: 6f845a2251c53431a8cf168ad956c45a, type: 3}
+  - {fileID: 2844104710601087997, guid: b75ab8b96a86e4173a653effae715b8f, type: 3}
   spawnFinder: {fileID: 1286475019}
 --- !u!4 &1286475021
 Transform:

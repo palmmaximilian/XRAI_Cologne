@@ -4,29 +4,45 @@ using Meta.XR.MRUtilityKit;
 
 public class GameManager : MonoBehaviour
 {
-    public FindSpawnPositions spawnFinder; // assign in Inspector
-   
+    public GameObject[] challenge;
+    public FindSpawnPositions spawnFinder;  // assign in Inspector
+    int challengeIndex = 0;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
-
+        spawnFinder.SpawnObject = challenge[challengeIndex];
+        spawnFinder.StartSpawn();
     }
 
     // Update is called once per frame
     void Update()
-    {   
-        if (OVRInput.GetDown(OVRInput.Button.One, OVRInput.Controller.RTouch))
+    {
+        if (challengeIndex > challenge.Length)
         {
-            spawnFinder.StartSpawn();
+            return;
+        }
+        else
+
+        {
+            if(challenge[challengeIndex].activeSelf == true)
+            {
+                
+                NextChallenge();
+            }
+            
         }
 
-        // Left controller "X" button
-        if (OVRInput.GetDown(OVRInput.Button.One, OVRInput.Controller.LTouch))
-        {
-            spawnFinder.StartSpawn();        }
+    }
+    
+    void NextChallenge()
+    {
+            challenge[challengeIndex].SetActive(false);
+            challengeIndex++;
+            spawnFinder.SpawnObject = challenge[challengeIndex];
+            spawnFinder.StartSpawn();
         
     }
+
 
 
 
