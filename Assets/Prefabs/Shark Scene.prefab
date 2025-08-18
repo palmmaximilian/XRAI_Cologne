@@ -169,19 +169,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6600021363744608001, guid: fa588d05f2c874021b75e93fec8daf50, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.70710784
       objectReference: {fileID: 0}
     - target: {fileID: 6600021363744608001, guid: fa588d05f2c874021b75e93fec8daf50, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.00000003774895
+      value: 0.00000002669258
       objectReference: {fileID: 0}
     - target: {fileID: 6600021363744608001, guid: fa588d05f2c874021b75e93fec8daf50, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0.0000000266925
       objectReference: {fileID: 0}
     - target: {fileID: 6600021363744608001, guid: fa588d05f2c874021b75e93fec8daf50, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: -0.70710576
       objectReference: {fileID: 0}
     - target: {fileID: 6600021363744608001, guid: fa588d05f2c874021b75e93fec8daf50, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -193,7 +193,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6600021363744608001, guid: fa588d05f2c874021b75e93fec8daf50, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: -90
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -215,15 +215,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: c71aed223f98dc54ca0be26e30819923, type: 3}
       propertyPath: m_LocalScale.x
-      value: 300
+      value: 330
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c71aed223f98dc54ca0be26e30819923, type: 3}
       propertyPath: m_LocalScale.y
-      value: 300
+      value: 330
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c71aed223f98dc54ca0be26e30819923, type: 3}
       propertyPath: m_LocalScale.z
-      value: 300
+      value: 330
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c71aed223f98dc54ca0be26e30819923, type: 3}
       propertyPath: m_LocalPosition.x
@@ -265,6 +265,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c71aed223f98dc54ca0be26e30819923, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: c71aed223f98dc54ca0be26e30819923, type: 3}
       propertyPath: m_Name
       value: fish tank
@@ -300,7 +304,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7332422919321133018, guid: 19d108f124a8c4a7b9a7cd271799296c, type: 3}
       propertyPath: instanceId
-      value: 5978821d-9d65-4337-91a8-d6e1d9acfdb8
+      value: 4ff40ace-4a6f-4a72-b1b4-0bcdbf6dab03
       objectReference: {fileID: 0}
     - target: {fileID: 7490796114035911957, guid: 19d108f124a8c4a7b9a7cd271799296c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -484,7 +488,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43f86b14a27b52f4f9298c33015b5c26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _transferOnSecondSelection: 0
+  _transferOnSecondSelection: 1
   _addNewPointsToFront: 0
   _forwardElement: {fileID: 0}
   _oneGrabTransformer: {fileID: 0}
