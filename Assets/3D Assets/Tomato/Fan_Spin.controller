@@ -35,7 +35,7 @@ AnimatorController:
   m_Name: Fan_Spin
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: isTurnedOn
+  - m_Name: FanOn
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -68,7 +68,7 @@ AnimatorStateMachine:
     m_Position: {x: 10, y: 200, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -855142071399295689}
-    m_Position: {x: -20, y: 340, z: 0}
+    m_Position: {x: 0, y: 340, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
