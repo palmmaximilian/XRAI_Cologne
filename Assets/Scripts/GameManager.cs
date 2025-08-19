@@ -39,7 +39,15 @@ public class GameManager : MonoBehaviour
 
     public void NextChallenge()
     {
-        Destroy(challenge[challengeIndex]);
+        GameObject[] allObjects = FindObjectsOfType<GameObject>();
+
+        foreach (GameObject obj in allObjects)
+        {
+            if (obj.name.Contains("Clone"))
+            {
+                Destroy(obj);
+            }
+        }
         challengeIndex++;
         spawnFinder.SpawnObject = challenge[challengeIndex];
         spawnFinder.StartSpawn();
