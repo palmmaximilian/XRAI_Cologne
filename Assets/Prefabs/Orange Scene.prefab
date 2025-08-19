@@ -160,7 +160,7 @@ PrefabInstance:
     - target: {fileID: 6783229898212249279, guid: 19d108f124a8c4a7b9a7cd271799296c, type: 3}
       propertyPath: m_Resource
       value: 
-      objectReference: {fileID: 8300000, guid: afde424a2284d4574af9a3f6b04c117d, type: 3}
+      objectReference: {fileID: 8300000, guid: 27cea8cc628264f8fb7db4c2a4473127, type: 3}
     - target: {fileID: 7250268837119923014, guid: 19d108f124a8c4a7b9a7cd271799296c, type: 3}
       propertyPath: m_Name
       value: ChallegesSpatial Audio

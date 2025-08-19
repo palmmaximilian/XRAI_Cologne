@@ -8963,9 +8963,9 @@ MonoBehaviour:
   challenge:
   - {fileID: 8086177335604392229, guid: 7b28ab92acbb346e294eae675c09ba02, type: 3}
   - {fileID: 5082086278065626434, guid: 88ced00b67a8b4d6ebff25f94852d4b6, type: 3}
-  - {fileID: 4728810663537184406, guid: 16fd5b8839de34f41af210a9f42b2cbc, type: 3}
   - {fileID: 7680320992198087279, guid: 026b9a80d8d7247fa94a5d3da0ca2966, type: 3}
   - {fileID: 3870657403141159652, guid: 10ebf8776c8394bf9bb598e543f41447, type: 3}
+  - {fileID: 4728810663537184406, guid: 16fd5b8839de34f41af210a9f42b2cbc, type: 3}
   passthroughLayer: {fileID: 905393306}
   luts:
   - {fileID: 2800000, guid: 505c202da880c4bfb84fac94e6d70379, type: 3}
