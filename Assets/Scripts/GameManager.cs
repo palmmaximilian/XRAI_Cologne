@@ -12,9 +12,7 @@ public class GameManager : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        passthroughLayer.SetColorLut(new OVRPassthroughColorLut(luts[challengeIndex]));
-        spawnFinder.SpawnObject = challenge[challengeIndex];
-        spawnFinder.StartSpawn();
+        NextChallenge();
     }
 
     // Update is called once per frame
@@ -39,20 +37,30 @@ public class GameManager : MonoBehaviour
 
     public void NextChallenge()
     {
-        GameObject[] allObjects = FindObjectsByType<GameObject>(FindObjectsSortMode.None);
-
-        foreach (GameObject obj in allObjects)
+        if (challengeIndex < challenge.Length)
         {
-            if (obj.name.Contains("ChallegesSpatial Audio"))
+            GameObject[] allObjects = FindObjectsByType<GameObject>(FindObjectsSortMode.None);
+
+            foreach (GameObject obj in allObjects)
             {
-                Destroy(obj);
+                if (obj.name.Contains("ChallegesSpatial Audio"))
+                {
+                    Destroy(obj);
+                }
             }
+
+            spawnFinder.SpawnObject = challenge[challengeIndex];
+            spawnFinder.StartSpawn();
+            passthroughLayer.SetColorLut(new OVRPassthroughColorLut(luts[challengeIndex]));
+            challengeIndex++;
+            Debug.Log("Snap event triggered!");
         }
-        challengeIndex++;
-        spawnFinder.SpawnObject = challenge[challengeIndex];
-        spawnFinder.StartSpawn();
-        passthroughLayer.SetColorLut(new OVRPassthroughColorLut(luts[challengeIndex]));
-        Debug.Log("Snap event triggered!");
+        else
+        {
+
+            Debug.Log("No more challenges available.");
+            return;
+        }
         
     }
 
