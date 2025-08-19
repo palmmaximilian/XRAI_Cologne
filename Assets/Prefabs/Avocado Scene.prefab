@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6277114773907510834}
+  - component: {fileID: 7132938559774041851}
   m_Layer: 0
   m_Name: Avocado Scene
   m_TagString: Untagged
@@ -36,6 +37,18 @@ Transform:
   - {fileID: 8839312830225732000}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7132938559774041851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4728810663537184406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 266f1a5602d1941e3938edbb3a159502, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1958886911735506217
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -181,8 +194,76 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3676489678661273866, guid: fa588d05f2c874021b75e93fec8daf50, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4095184205383026246}
   m_SourcePrefab: {fileID: 100100000, guid: fa588d05f2c874021b75e93fec8daf50, type: 3}
+--- !u!114 &91604533878842546 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2339903195397831187, guid: fa588d05f2c874021b75e93fec8daf50, type: 3}
+  m_PrefabInstance: {fileID: 2394912631687536289}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1313348754113959851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06bd28341d3e86a4c8ab52b1a0269c7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1313348754113959851 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3676489678661273866, guid: fa588d05f2c874021b75e93fec8daf50, type: 3}
+  m_PrefabInstance: {fileID: 2394912631687536289}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4095184205383026246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1313348754113959851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1464721f2283eb14e94a33e812b47be4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interactableView: {fileID: 91604533878842546}
+  _whenHover:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenUnhover:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenSelect:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7132938559774041851}
+        m_TargetAssemblyTypeName: GameManagerMessenger, Assembly-CSharp
+        m_MethodName: GoNextLevel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _whenUnselect:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenInteractorViewAdded:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenInteractorViewRemoved:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenSelectingInteractorViewAdded:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenSelectingInteractorViewRemoved:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!4 &8839312830225732000 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6600021363744608001, guid: fa588d05f2c874021b75e93fec8daf50, type: 3}
@@ -309,13 +390,84 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1305887336599570763, guid: 438952b137a3043baab3fcca8854c0f1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 9124121032944446215}
   m_SourcePrefab: {fileID: 100100000, guid: 438952b137a3043baab3fcca8854c0f1, type: 3}
 --- !u!4 &2920826611880833375 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8131346563263087748, guid: 438952b137a3043baab3fcca8854c0f1, type: 3}
   m_PrefabInstance: {fileID: 6363732276916385243}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &3011018461378793390 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8185799869666540149, guid: 438952b137a3043baab3fcca8854c0f1, type: 3}
+  m_PrefabInstance: {fileID: 6363732276916385243}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5354768236212337808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2756c251a8363df4f9d4b30ee6414bd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &5354768236212337808 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1305887336599570763, guid: 438952b137a3043baab3fcca8854c0f1, type: 3}
+  m_PrefabInstance: {fileID: 6363732276916385243}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &9124121032944446215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5354768236212337808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cf00a93483fd1b4ba357bf6f764d6e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interactorView: {fileID: 3011018461378793390}
+  _whenEnabled:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenDisabled:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenHover:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenUnhover:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenSelect:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7132938559774041851}
+        m_TargetAssemblyTypeName: GameManagerMessenger, Assembly-CSharp
+        m_MethodName: GoNextLevel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _whenUnselect:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenPreprocessed:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenProcessed:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenPostprocessed:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1001 &6828737467528541927
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -456,7 +608,7 @@ PrefabInstance:
       addedObject: {fileID: 4369971163298357172}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 91a26a728daa63f4e9f04203820c759f, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 3120636624068148927}
+      addedObject: {fileID: 948007070761679047}
   m_SourcePrefab: {fileID: 100100000, guid: 91a26a728daa63f4e9f04203820c759f, type: 3}
 --- !u!1 &7350656543514161842 stripped
 GameObject:
@@ -534,8 +686,8 @@ MonoBehaviour:
   _rigidbody: {fileID: 8018545992506861921}
   _kinematicWhileSelected: 1
   _throwWhenUnselected: 1
---- !u!64 &3120636624068148927
-MeshCollider:
+--- !u!136 &948007070761679047
+CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -552,10 +704,11 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -3471805035147313068, guid: 91a26a728daa63f4e9f04203820c759f, type: 3}
+  serializedVersion: 2
+  m_Radius: 0.011488071
+  m_Height: 0.032379635
+  m_Direction: 1
+  m_Center: {x: 0.000000019559552, y: 0.015051793, z: -0.0006512171}
 --- !u!4 &7874851274116540424 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 91a26a728daa63f4e9f04203820c759f, type: 3}
