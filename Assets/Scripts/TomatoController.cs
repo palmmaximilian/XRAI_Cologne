@@ -25,6 +25,12 @@ public class TomatoController : MonoBehaviour
         {
             animator.SetTrigger("FanOn");
         }
+        GameObject.Find("Idle Tomato").SetActive(false);
+        GameObject.Find("Running Tomato").SetActive(true);
+        GameObject.Find("Victorious Tomato").SetActive(true);
+
+
+
     }
 
 

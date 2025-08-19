@@ -43,7 +43,7 @@ public class GameManager : MonoBehaviour
 
         foreach (GameObject obj in allObjects)
         {
-            if (obj.name.Contains("Clone"))
+            if (obj.name.Contains("ChallegesSpatial Audio"))
             {
                 Destroy(obj);
             }

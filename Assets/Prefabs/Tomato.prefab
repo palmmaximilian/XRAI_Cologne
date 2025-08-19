@@ -42,8 +42,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5402560466178515970}
-  - component: {fileID: 2796519823121526419}
-  - component: {fileID: 773264792198613920}
+  - component: {fileID: 4019309291267596528}
+  - component: {fileID: 2592026522963673242}
   m_Layer: 0
   m_Name: Tomato
   m_TagString: Untagged
@@ -67,14 +67,25 @@ Transform:
   - {fileID: 5028292635814439565}
   - {fileID: 8315862262995864814}
   - {fileID: 8297890291460166154}
-  - {fileID: 6966885557954481268}
   - {fileID: 2353349895358810092}
+  - {fileID: 6966885557954481268}
   - {fileID: 5822415972190087944}
-  - {fileID: 8805237470769289995}
   - {fileID: 3050423262957640882}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 225.084, z: 0}
---- !u!114 &2796519823121526419
+--- !u!114 &4019309291267596528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1663555094490583388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 266f1a5602d1941e3938edbb3a159502, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2592026522963673242
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -87,33 +98,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AnimatedGameObject: {fileID: 1363325449613017488}
---- !u!114 &773264792198613920
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1663555094490583388}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 74e3d048252884900a35927af3050826, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  OnComplition:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: NextChallenge
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1 &1756672580569243255
 GameObject:
   m_ObjectHideFlags: 0
@@ -604,7 +588,7 @@ MonoBehaviour:
   _whenSelect:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2796519823121526419}
+      - m_Target: {fileID: 2592026522963673242}
         m_TargetAssemblyTypeName: TomatoController, Assembly-CSharp
         m_MethodName: StartRace
         m_Mode: 1
@@ -631,55 +615,6 @@ MonoBehaviour:
   _whenSelectingInteractorViewRemoved:
     m_PersistentCalls:
       m_Calls: []
---- !u!1 &3807859221004816789
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8805237470769289995}
-  - component: {fileID: 3304223434153162019}
-  m_Layer: 0
-  m_Name: TomatoLogic
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8805237470769289995
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3807859221004816789}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 5402560466178515970}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &3304223434153162019
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3807859221004816789}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7680300b58d105046abfeec2292182f6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fan: {fileID: 8659348992838178388}
-  idleCan: {fileID: 8675014720640846000}
-  runCan: {fileID: 3162397676388015446}
-  victoryCan: {fileID: 7774489679392233166}
-  flag: {fileID: 6595153141631758770}
 --- !u!1 &4711933507008608950
 GameObject:
   m_ObjectHideFlags: 0
@@ -933,11 +868,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5bcb5f9aca90aac4b8132b2062fc7e64, type: 3}
   m_PrefabInstance: {fileID: 2819955128414363655}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &3162397676388015446 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 5bcb5f9aca90aac4b8132b2062fc7e64, type: 3}
-  m_PrefabInstance: {fileID: 2819955128414363655}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5593999237463486887
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1138,11 +1068,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: e6908c30747faa348aed403c9d40de4a, type: 3}
   m_PrefabInstance: {fileID: 6289234029041290467}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &6595153141631758770 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e6908c30747faa348aed403c9d40de4a, type: 3}
-  m_PrefabInstance: {fileID: 6289234029041290467}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7432594140599184287
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1207,11 +1132,6 @@ PrefabInstance:
 --- !u!4 &6966885557954481268 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 34fd189ded1896c4c92224784c6a78d8, type: 3}
-  m_PrefabInstance: {fileID: 7432594140599184287}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &7774489679392233166 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 34fd189ded1896c4c92224784c6a78d8, type: 3}
   m_PrefabInstance: {fileID: 7432594140599184287}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8404489023713195489
@@ -1396,10 +1316,5 @@ Animator:
 --- !u!4 &8315862262995864814 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8c216e4e212962d4d846c1062eafc0dd, type: 3}
-  m_PrefabInstance: {fileID: 8425489254683814661}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &8659348992838178388 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 8c216e4e212962d4d846c1062eafc0dd, type: 3}
   m_PrefabInstance: {fileID: 8425489254683814661}
   m_PrefabAsset: {fileID: 0}

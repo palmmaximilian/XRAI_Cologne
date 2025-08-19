@@ -8497,6 +8497,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dancing
       objectReference: {fileID: 0}
+    - target: {fileID: 4991115969522599277, guid: ead0c9b12167de5489b422c32fdac469, type: 3}
+      propertyPath: _rigidbody
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7948417662484245834, guid: ead0c9b12167de5489b422c32fdac469, type: 3}
+      propertyPath: _rigidbody
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8333352099000547909, guid: ead0c9b12167de5489b422c32fdac469, type: 3}
+      propertyPath: _rigidbody
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8976910395512621462, guid: ead0c9b12167de5489b422c32fdac469, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.854
@@ -8961,20 +8973,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   challenge:
-  - {fileID: 8086177335604392229, guid: 7b28ab92acbb346e294eae675c09ba02, type: 3}
-  - {fileID: 5082086278065626434, guid: 88ced00b67a8b4d6ebff25f94852d4b6, type: 3}
-  - {fileID: 7680320992198087279, guid: 026b9a80d8d7247fa94a5d3da0ca2966, type: 3}
+  - {fileID: 1663555094490583388, guid: 5fb98f407fe421b4f9c98ed7c34b0a68, type: 3}
   - {fileID: 3870657403141159652, guid: 10ebf8776c8394bf9bb598e543f41447, type: 3}
+  - {fileID: 5082086278065626434, guid: 88ced00b67a8b4d6ebff25f94852d4b6, type: 3}
   - {fileID: 4728810663537184406, guid: 16fd5b8839de34f41af210a9f42b2cbc, type: 3}
+  - {fileID: 8086177335604392229, guid: 7b28ab92acbb346e294eae675c09ba02, type: 3}
+  - {fileID: 7680320992198087279, guid: 026b9a80d8d7247fa94a5d3da0ca2966, type: 3}
+  - {fileID: 3699760282590603350, guid: ead0c9b12167de5489b422c32fdac469, type: 3}
   passthroughLayer: {fileID: 905393306}
   luts:
+  - {fileID: 2800000, guid: ad1004b8382c4420c82372d94c936eda, type: 3}
+  - {fileID: 2800000, guid: 9322c0e762199411f8b49aef7c23d3e7, type: 3}
   - {fileID: 2800000, guid: 505c202da880c4bfb84fac94e6d70379, type: 3}
   - {fileID: 2800000, guid: 99674a3e7fdd845abb17b74a86ab53b8, type: 3}
   - {fileID: 2800000, guid: 916589dbc0c3d4f8ebb19037124a0d4c, type: 3}
   - {fileID: 2800000, guid: 13e352b8f520e491a96d8fb791efe7ec, type: 3}
   - {fileID: 2800000, guid: 2f25f47f7001148c380c1b82e9040bf3, type: 3}
-  - {fileID: 2800000, guid: ad1004b8382c4420c82372d94c936eda, type: 3}
-  - {fileID: 2800000, guid: 9322c0e762199411f8b49aef7c23d3e7, type: 3}
   spawnFinder: {fileID: 1286475019}
 --- !u!4 &1286475021
 Transform:
