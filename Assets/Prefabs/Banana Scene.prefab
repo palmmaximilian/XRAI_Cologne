@@ -373,6 +373,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1227753454085012822}
+  - component: {fileID: 7857473927635673743}
   m_Layer: 0
   m_Name: Banana Scene
   m_TagString: Untagged
@@ -398,6 +399,18 @@ Transform:
   - {fileID: 6640796482813336781}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7857473927635673743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3870657403141159652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 266f1a5602d1941e3938edbb3a159502, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8907830455541029489
 GameObject:
   m_ObjectHideFlags: 0
@@ -408,6 +421,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6900375087047745825}
   - component: {fileID: 8374949961584655930}
+  - component: {fileID: 4007958642815028502}
   m_Layer: 0
   m_Name: SnapInteractor
   m_TagString: Untagged
@@ -454,6 +468,58 @@ MonoBehaviour:
   _defaultInteractable: {fileID: 0}
   _timeOutInteractable: {fileID: 0}
   _timeOut: 0
+--- !u!114 &4007958642815028502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8907830455541029489}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cf00a93483fd1b4ba357bf6f764d6e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interactorView: {fileID: 8374949961584655930}
+  _whenEnabled:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenDisabled:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenHover:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenUnhover:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenSelect:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7857473927635673743}
+        m_TargetAssemblyTypeName: GameManagerMessenger, Assembly-CSharp
+        m_MethodName: GoNextLevel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _whenUnselect:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenPreprocessed:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenProcessed:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenPostprocessed:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1001 &1787953825659195473
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -525,8 +591,76 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3676489678661273866, guid: fa588d05f2c874021b75e93fec8daf50, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1807499191920306349}
   m_SourcePrefab: {fileID: 100100000, guid: fa588d05f2c874021b75e93fec8daf50, type: 3}
+--- !u!1 &3158594997407275355 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3676489678661273866, guid: fa588d05f2c874021b75e93fec8daf50, type: 3}
+  m_PrefabInstance: {fileID: 1787953825659195473}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1807499191920306349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3158594997407275355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1464721f2283eb14e94a33e812b47be4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interactableView: {fileID: 4082819856545262146}
+  _whenHover:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenUnhover:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenSelect:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7857473927635673743}
+        m_TargetAssemblyTypeName: GameManagerMessenger, Assembly-CSharp
+        m_MethodName: GoNextLevel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _whenUnselect:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenInteractorViewAdded:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenInteractorViewRemoved:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenSelectingInteractorViewAdded:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenSelectingInteractorViewRemoved:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &4082819856545262146 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2339903195397831187, guid: fa588d05f2c874021b75e93fec8daf50, type: 3}
+  m_PrefabInstance: {fileID: 1787953825659195473}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3158594997407275355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06bd28341d3e86a4c8ab52b1a0269c7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &4848101901382393680 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6600021363744608001, guid: fa588d05f2c874021b75e93fec8daf50, type: 3}

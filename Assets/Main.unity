@@ -8821,13 +8821,13 @@ MonoBehaviour:
   - {fileID: 7680320992198087279, guid: 026b9a80d8d7247fa94a5d3da0ca2966, type: 3}
   passthroughLayer: {fileID: 905393306}
   luts:
-  - {fileID: 2800000, guid: ad1004b8382c4420c82372d94c936eda, type: 3}
-  - {fileID: 2800000, guid: 9322c0e762199411f8b49aef7c23d3e7, type: 3}
   - {fileID: 2800000, guid: 505c202da880c4bfb84fac94e6d70379, type: 3}
   - {fileID: 2800000, guid: 99674a3e7fdd845abb17b74a86ab53b8, type: 3}
   - {fileID: 2800000, guid: 916589dbc0c3d4f8ebb19037124a0d4c, type: 3}
   - {fileID: 2800000, guid: 13e352b8f520e491a96d8fb791efe7ec, type: 3}
   - {fileID: 2800000, guid: 2f25f47f7001148c380c1b82e9040bf3, type: 3}
+  - {fileID: 2800000, guid: ad1004b8382c4420c82372d94c936eda, type: 3}
+  - {fileID: 2800000, guid: 9322c0e762199411f8b49aef7c23d3e7, type: 3}
   spawnFinder: {fileID: 1286475019}
 --- !u!4 &1286475021
 Transform:
@@ -12467,7 +12467,7 @@ PrefabInstance:
     - target: {fileID: 1989312280155265017, guid: 88ced00b67a8b4d6ebff25f94852d4b6, type: 3}
       propertyPath: _rigidbody
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1399208657}
     - target: {fileID: 2401463156596918725, guid: 88ced00b67a8b4d6ebff25f94852d4b6, type: 3}
       propertyPath: _rigidbody
       value: 
