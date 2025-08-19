@@ -37,7 +37,7 @@ public class GameManager : MonoBehaviour
 
     public void NextChallenge()
     {
-        if (challengeIndex < challenge.Length)
+        if (challengeIndex <= challenge.Length)
         {
             GameObject[] allObjects = FindObjectsByType<GameObject>(FindObjectsSortMode.None);
 
